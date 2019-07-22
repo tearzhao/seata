@@ -24,6 +24,9 @@ import io.seata.core.lock.Locker;
 import io.seata.core.lock.RowLock;
 import io.seata.server.session.BranchSession;
 
+//tearzhao: Fescar目前开源版本全局锁的实现
+//tearzhao: 大家有兴趣自己阅读:com.alibaba.fescar.server.lock.DefaultLockManagerImpl
+
 /**
  * The type Default lock manager.
  *
