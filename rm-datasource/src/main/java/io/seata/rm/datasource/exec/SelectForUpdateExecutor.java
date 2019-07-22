@@ -30,6 +30,9 @@ import io.seata.rm.datasource.sql.SQLRecognizer;
 import io.seata.rm.datasource.sql.SQLSelectRecognizer;
 import io.seata.rm.datasource.sql.struct.TableRecords;
 
+
+//tearzhao: 4. Fescar的文档中说，是支持全局事务读已提交的，那么fescar是如何实现的呢？
+//tearzhao:    感兴趣的同学可以试着读一下com.alibaba.fescar.rm.datasource.exec.SelectForUpdateExecutor
 /**
  * The type Select for update executor.
  *
